@@ -11,8 +11,6 @@ from bs4 import BeautifulSoup
 
 import wikipediaapi
 
-wiki_ko = wikipediaapi.Wikipedia('ko')
-wiki_en = wikipediaapi.Wikipedia('en')
 wiki_jp = wikipediaapi.Wikipedia('jp')
 
 wiki_ko = wikipediaapi.Wikipedia(language='ko', extract_format=wikipediaapi.ExtractFormat.WIKI)
